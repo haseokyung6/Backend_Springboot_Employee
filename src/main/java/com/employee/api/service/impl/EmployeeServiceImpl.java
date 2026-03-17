@@ -3,13 +3,11 @@ package com.employee.api.service.impl;
 import com.employee.api.dto.EmployeeDto;
 import com.employee.api.entity.Department;
 import com.employee.api.entity.Employee;
-import com.employee.api.exception.ResourceNotFoundException;
 import com.employee.api.mapper.EmployeeMapper;
 import com.employee.api.repository.DepartmentRepository;
 import com.employee.api.repository.EmployeeRepository;
 import com.employee.api.service.EmployeeService;
 import lombok.RequiredArgsConstructor;
-import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
